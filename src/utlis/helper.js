@@ -46,6 +46,7 @@ export const MEDIA_DETAILS_DATA_LIST = [
         data: "Lakh Cr",
         discrpition: "Size of India’s M & E Industry",
         icon: "building",
+        rs: "₹",
     },
 ]
 
@@ -691,24 +692,24 @@ export const CREATIVE_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/webp/creative/content_agency.webp',
             },
-            {
-                img: '/images/webp/creative/digital_marketing.webp',
-            },
-            {
-                img: '/images/webp/creative/event_agency.webp',
-            },
-            {
-                img: '/images/webp/creative/influencer_marketing.webp',
-            },
+            // {
+            //     img: '/images/webp/creative/digital_marketing.webp',
+            // },
+            // {
+            //     img: '/images/webp/creative/event_agency.webp',
+            // },
+            // {
+            //     img: '/images/webp/creative/influencer_marketing.webp',
+            // },
             {
                 img: '/images/webp/creative/line_agency.webp',
             },
             {
                 img: '/images/webp/creative/post_studio.webp',
             },
-            {
-                img: '/images/webp/creative/pr_agency.webp',
-            },
+            // {
+            //     img: '/images/webp/creative/pr_agency.webp',
+            // },
             {
                 img: '/images/webp/creative/production_house.webp',
             },

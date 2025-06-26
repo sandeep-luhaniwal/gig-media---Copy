@@ -5,7 +5,7 @@ import Icons from '../common/Icons';
 
 
 
-const Faq = ({videomapdata}) => {
+const Faq = ({ videomapdata }) => {
     const [activeIndex, setActiveIndex] = useState(0);
     const videoRef = useRef(null);
 
@@ -29,6 +29,9 @@ const Faq = ({videomapdata}) => {
     return (
         <section id='faqs' className="bg-white py-14 md:py-16 lg:py-20 xl:py-[94px]">
             <div className="max-w-[1310px] mx-auto px-4">
+                <h2 className="ff_s pb-10 md:pb-12 lg:pb-20 font-bold text-4xl md:text-5xl lg:text-[56px] text-black text-center">
+                    The Gig<span className='text-[#FF0004]'>Media</span> Guide
+                </h2>
                 <div className="grid grid-cols-1 lg:grid-cols-[60%_38%] xl:grid-cols-2 gap-10 md:gap-6 xl:gap-[60px] items-center">
 
                     {/* FAQ List */}
@@ -41,7 +44,7 @@ const Faq = ({videomapdata}) => {
                             >
                                 <div
                                     onClick={() => toggleFAQ(index)}
-                                    className="w-full cursor-pointer flex items-center gap-1 text-base lg:text-lg xl:text-[19px] text-left px-3 py-2.5 xl:py-3.5 font-semibold focus:outline-none flex justify-between items-start ff_n"
+                                    className="w-full cursor-pointer flex gap-1 text-base lg:text-lg xl:text-[19px] text-left px-3 py-2.5 xl:py-3.5 font-semibold focus:outline-none  justify-between items-start ff_n"
                                 >
                                     <span>{item.question}</span>
                                     <span className={`text-xl mt-3 ${activeIndex === index ? 'rotate-90' : 'rotate-0'}`}>

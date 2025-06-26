@@ -23,13 +23,15 @@ const Footer = () => {
         <div className="grid grid-cols-1 py-10 align-middle md:grid-cols-2 lg:grid-cols-4 gap-8 text-sm">
           {/* Logo Column */}
           <div>
-            <Image
-              width={192}
-              className=""
-              src={footer_logo}
-              alt="footer_logo"
-            />
-            <p className="pt-2 text-base font-medium">An AI Powered Media & Entertainment Solution</p>
+            <Link href={"/"}>
+              <Image
+                width={192}
+                className=""
+                src={footer_logo}
+                alt="footer_logo"
+              />
+            </Link>
+            <p className="pt-2 text-lg md:text-xl font-medium lg:max-w-[220px]">An AI Powered Media & Entertainment Solution</p>
           </div>
 
           {/* About Column */}
@@ -78,9 +80,7 @@ const Footer = () => {
               <Link href="#faqs" className="hover:text-red-600 max-w-max cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
                 Help(FAQ)
               </Link>
-              <Link href="/" className="hover:text-red-600 max-w-max cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
-                Contact
-              </Link>
+             
             </div>
 
           </div>

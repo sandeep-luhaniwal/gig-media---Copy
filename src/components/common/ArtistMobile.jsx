@@ -31,7 +31,7 @@ const ArtistMobile = ({ mapdata }) => {
             key={activeItem.title}
               data-aos="fade-up-right"
               data-aos-duration={1200}
-              className="text-black font-bold text-3xl md:text-4xl lg:text-[47px] leading-[122%] pb-2"
+              className="text-black font-bold text-3xl md:text-4xl lg:text-[55px] leading-[122%] pb-2"
             >
               {activeItem.title}
             </h3>

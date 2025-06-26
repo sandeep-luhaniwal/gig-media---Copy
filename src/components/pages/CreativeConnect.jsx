@@ -27,7 +27,7 @@ const CreativeConnect = () => {
             <PartnersCards mapdata={CREATIVE_CONNECT_DATA} text />
             <ResponsiveGrid
                 description={"Meet our talented artists — photographers, editors, performers, and creators — getting real gigs through the GigMedia platform every day."}
-                title={"360 degree media & entertainment agency aggregation"} mapdataAll={CREATIVE_CELEBRITIES_DATA_LIST} />
+                title={"360° media & entertainment agency aggregation"} mapdataAll={CREATIVE_CELEBRITIES_DATA_LIST} />
             <ArtistMobile
 
                 mapdata={CREATIVE_CELEBRITIES_SLIDER_DATA}

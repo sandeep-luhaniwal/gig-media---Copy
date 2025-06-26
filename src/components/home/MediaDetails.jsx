@@ -24,6 +24,7 @@ const MediaDetails = () => {
                 </div>
                 <div>
                   <h3 className="text-2xl md:text-3xl lg:text-[26px] xl:text-[32px] text-black font-bold leading-none">
+                    {obj.rs && <span className="capitalize me-1">{obj.rs}</span>}
                     <CountUp
                       start={0}
                       end={inView ? count : 0}
