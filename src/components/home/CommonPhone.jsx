@@ -23,7 +23,7 @@ const CommonPhone = ({ red, title, three, url, desc, phoneImages }) => {
 
     return (
         <div className={`${red ? "bg-[#FFE0E1]" : "bg-white"} `}>
-            <div className="max-w-[1310px] relative mx-auto px-4 py-14 md:py-16 lg:py-20 xl:py-[94px]">
+            <div className="max-w-[1310px] relative mx-auto px-4 py-14 md:py-16 lg:py-20">
                 <Image className={`absolute max-w-[472px] w-full ${three ? "top-[60px]" : "top-9"} ${red ? "right-0" : "left-0"}`} src={`${red ? "/images/webp/common-two.webp" : three ? "/images/webp/common-third.webp" : "/images/webp/common-one.webp"}`} alt='common' height={472} width={472} />
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 xl:gap-24 items-center">
                     <div className={`relative z-30 ${red ? 'order-2 lg:max-w-[602px]' : 'order-2 lg:max-w-[572px]'}`}>
@@ -66,26 +66,19 @@ const CommonPhone = ({ red, title, three, url, desc, phoneImages }) => {
 
                                 let scale = 'scale-60';
                                 let translate = 'translate-x-0';
-
-                                // Conditional scaling based on 'red' prop
                                 if (!red) {
                                     if (index === getRealIndex(0)) {
-                                        scale = 'scale-100';
+                                        scale = 'scale-110';
                                     } else if (index === getRealIndex(1)) {
                                         scale = 'scale-60';
                                         translate = 'translate-x-4';
-                                    } else if (index === getRealIndex(2)) {
-                                        scale = 'scale-25';
                                     }
                                 } else {
-                                    // Reverse scaling for 'red' (right to left)
-                                    if (index === getRealIndex(2)) {
-                                        scale = 'scale-25';
-                                    } else if (index === getRealIndex(1)) {
+                                    if (index === getRealIndex(1)) {
                                         scale = 'scale-60';
                                         translate = 'translate-x-[-10px]';
                                     } else if (index === getRealIndex(0)) {
-                                        scale = 'scale-100';
+                                        scale = 'scale-110';
                                     }
                                 }
 
@@ -94,13 +87,14 @@ const CommonPhone = ({ red, title, three, url, desc, phoneImages }) => {
                                         <div
                                             className={`transition-all duration-300 transform ${scale} ${translate} flex justify-center`}
                                         >
-                                            <Image
-                                                src={src}
-                                                alt={`Phone ${index + 1}`}
-                                                width={300}
-                                                height={600}
-                                                className="rounded-xl object-contain"
-                                            />
+                                            <div className="w-[180px] h-[380px] sm:w-[240px] lg:w-[250px] sm:h-[440px] lg:h-[480px] relative">
+                                                <Image
+                                                    src={src}
+                                                    alt={`Phone ${index + 1}`}
+                                                    fill
+                                                    className="rounded-xl object-contain"
+                                                />
+                                            </div>
                                         </div>
                                     </SwiperSlide>
                                 );
@@ -109,10 +103,8 @@ const CommonPhone = ({ red, title, three, url, desc, phoneImages }) => {
 
                         </Swiper>
 
-                        {/* Custom Pagination */}
                         <div className="flex gap-2 mt-4">
                             {Array.from({ length: TOTAL_DOTS }).map((_, dotIdx) => {
-                                // how many slides each dot represents
                                 const slidesPerGroup = Math.ceil(phoneImages.length / TOTAL_DOTS);
                                 const groupStart = dotIdx * slidesPerGroup;
                                 const currentGroup = Math.floor(activeIndex / slidesPerGroup);
