@@ -121,7 +121,7 @@ const termsData = [
       "🆔 B.C. 1302813",
     ],
   },
-  
+
 ];
 
 
@@ -177,14 +177,16 @@ const TermsAndConditions = () => {
   };
 
   return (
-    <div className="max-w-[1140px] mx-auto px-4 xl:px-0 py-10 md:py-14 lg:py-20 text-gray-800">
-      <h1 className="text-3xl md:text-5xl font-bold mb-6 text-orange">Terms and Conditions</h1>
-      {termsData.map((section, index) => (
-        <div key={index} className="mb-8 ps-3">
-          <h2 className="text-xl lg:text-2xl font-bold mb-1">{section.title}</h2>
-          {section.content.map((item, i) => renderContent(item, i))}
-        </div>
-      ))}
+    <div className="border-y border-[#ff0004]/40 mt-4">
+      <div className="max-w-[1140px] mx-auto px-4 xl:px-0 py-10 md:py-14 lg:py-20 text-gray-800">
+        <h1 className="text-3xl md:text-5xl font-bold mb-6 text-[#ff0004]">Terms and Conditions</h1>
+        {termsData.map((section, index) => (
+          <div key={index} className="mb-8 ps-3">
+            <h2 className="text-xl lg:text-2xl font-bold mb-1">{section.title}</h2>
+            {section.content.map((item, i) => renderContent(item, i))}
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

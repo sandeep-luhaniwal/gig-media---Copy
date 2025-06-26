@@ -15,6 +15,10 @@ export const NAVIGATION_LINK_LIST = [
         title: "Media Hub",
         url: "/media-hub",
     },
+    {
+        title: "Latest News",
+        url: "/latest-news",
+    },
 
 ];
 
@@ -271,21 +275,7 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
     },
     {
         image: [
-            {
-                img: '/images/png/media/ajay_hooda.png',
-                name: 'Ajay Hooda',
-                role: 'Haryanvi singer, ex-Army personnel & stage performer',
-            },
-            {
-                img: '/images/png/media/amti_saini.png',
-                name: 'Amti Saini',
-                role: 'Haryanvi singer and dancer',
-            },
-            {
-                img: '/images/png/media/binder_anoda.png',
-                name: 'Binder Anoda',
-                role: 'Haryanvi singer and dancer',
-            },
+
             {
                 img: '/images/png/media/dhanda_nyoliwala.png',
                 name: 'Dhanda Nyoliwala',
@@ -344,6 +334,102 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/media/veer_sahu.png',
                 name: 'Veer Sahu',
+                role: 'Haryanvi singer and dancer',
+            },
+            {
+                img: '/images/png/media/ajay_hooda.png',
+                name: 'Ajay Hooda',
+                role: 'Haryanvi singer, ex-Army personnel & stage performer',
+            },
+            {
+                img: '/images/png/media/amti_saini.png',
+                name: 'Amti Saini',
+                role: 'Haryanvi singer and dancer',
+            },
+            {
+                img: '/images/png/media/binder_anoda.png',
+                name: 'Binder Anoda',
+                role: 'Haryanvi singer and dancer',
+            },
+        ],
+    },
+    {
+        image: [
+
+
+            {
+                img: '/images/png/media/khesari_lal_yadav.png',
+                name: 'Khesari Lal Yadav',
+                role: 'Haryanvi/Bhojpuri singer and actor',
+            },
+            {
+                img: '/images/png/media/mankirt_aulakh.png',
+                name: 'Mankirt Aulakh',
+                role: 'Punjabi singer and performer',
+            },
+            {
+                img: '/images/png/media/masoom_sharma.png',
+                name: 'Masoom Sharma',
+                role: 'Haryanvi singer and dancer',
+            },
+            {
+                img: '/images/png/media/pardeep_boora.png',
+                name: 'Pardeep Boora',
+                role: 'Haryanvi singer and dancer',
+            },
+            {
+                img: '/images/png/media/pawan_singh.png',
+                name: 'Pawan Singh',
+                role: 'Bhojpuri singer and actor',
+            },
+            {
+                img: '/images/png/media/pranjal_dahiya.png',
+                name: 'Pranjal Dahiya',
+                role: 'Haryanvi singer and dancer',
+            },
+            {
+                img: '/images/png/media/renuka_panwar.png',
+                name: 'Renuka Panwar',
+                role: 'Haryanvi singer and dancer',
+            },
+            {
+                img: '/images/png/media/sapna_choudhary.png',
+                name: 'Sapna Choudhary',
+                role: 'Haryanvi dancer, singer, actress & Bigg Boss contestant',
+            },
+            {
+                img: '/images/png/media/veer_sahu.png',
+                name: 'Veer Sahu',
+                role: 'Haryanvi singer and dancer',
+            },
+            {
+                img: '/images/png/media/ajay_hooda.png',
+                name: 'Ajay Hooda',
+                role: 'Haryanvi singer, ex-Army personnel & stage performer',
+            },
+            {
+                img: '/images/png/media/amti_saini.png',
+                name: 'Amti Saini',
+                role: 'Haryanvi singer and dancer',
+            },
+            {
+                img: '/images/png/media/binder_anoda.png',
+                name: 'Binder Anoda',
+                role: 'Haryanvi singer and dancer',
+            },
+            {
+                img: '/images/png/media/dhanda_nyoliwala.png',
+                name: 'Dhanda Nyoliwala',
+                role: 'Haryanvi singer and dancer',
+            },
+            {
+                img: '/images/png/media/kaka.png',
+                name: 'Kaka',
+                role: 'Haryanvi singer and dancer',
+            },
+            {
+                img: '/images/png/media/kd.png',
+                name: 'KD',
                 role: 'Haryanvi singer and dancer',
             },
         ],
@@ -352,6 +438,36 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
         image: [
 
             {
+                img: '/images/png/media/pardeep_boora.png',
+                name: 'Pardeep Boora',
+                role: 'Haryanvi singer and dancer',
+            },
+            {
+                img: '/images/png/media/pawan_singh.png',
+                name: 'Pawan Singh',
+                role: 'Bhojpuri singer and actor',
+            },
+            {
+                img: '/images/png/media/pranjal_dahiya.png',
+                name: 'Pranjal Dahiya',
+                role: 'Haryanvi singer and dancer',
+            },
+            {
+                img: '/images/png/media/renuka_panwar.png',
+                name: 'Renuka Panwar',
+                role: 'Haryanvi singer and dancer',
+            },
+            {
+                img: '/images/png/media/sapna_choudhary.png',
+                name: 'Sapna Choudhary',
+                role: 'Haryanvi dancer, singer, actress & Bigg Boss contestant',
+            },
+            {
+                img: '/images/png/media/veer_sahu.png',
+                name: 'Veer Sahu',
+                role: 'Haryanvi singer and dancer',
+            },
+            {
                 img: '/images/png/media/ajay_hooda.png',
                 name: 'Ajay Hooda',
                 role: 'Haryanvi singer, ex-Army personnel & stage performer',
@@ -394,42 +510,28 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/media/masoom_sharma.png',
                 name: 'Masoom Sharma',
-                role: 'Haryanvi singer and dancer',
-            },
-            {
-                img: '/images/png/media/pardeep_boora.png',
-                name: 'Pardeep Boora',
-                role: 'Haryanvi singer and dancer',
-            },
-            {
-                img: '/images/png/media/pawan_singh.png',
-                name: 'Pawan Singh',
-                role: 'Bhojpuri singer and actor',
-            },
-            {
-                img: '/images/png/media/pranjal_dahiya.png',
-                name: 'Pranjal Dahiya',
-                role: 'Haryanvi singer and dancer',
-            },
-            {
-                img: '/images/png/media/renuka_panwar.png',
-                name: 'Renuka Panwar',
-                role: 'Haryanvi singer and dancer',
-            },
-            {
-                img: '/images/png/media/sapna_choudhary.png',
-                name: 'Sapna Choudhary',
-                role: 'Haryanvi dancer, singer, actress & Bigg Boss contestant',
-            },
-            {
-                img: '/images/png/media/veer_sahu.png',
-                name: 'Veer Sahu',
                 role: 'Haryanvi singer and dancer',
             },
         ],
     },
     {
         image: [
+
+            {
+                img: '/images/png/media/renuka_panwar.png',
+                name: 'Renuka Panwar',
+                role: 'Haryanvi singer and dancer',
+            },
+            {
+                img: '/images/png/media/sapna_choudhary.png',
+                name: 'Sapna Choudhary',
+                role: 'Haryanvi dancer, singer, actress & Bigg Boss contestant',
+            },
+            {
+                img: '/images/png/media/veer_sahu.png',
+                name: 'Veer Sahu',
+                role: 'Haryanvi singer and dancer',
+            },
             {
                 img: '/images/png/media/ajay_hooda.png',
                 name: 'Ajay Hooda',
@@ -488,100 +590,6 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/media/pranjal_dahiya.png',
                 name: 'Pranjal Dahiya',
-                role: 'Haryanvi singer and dancer',
-            },
-            {
-                img: '/images/png/media/renuka_panwar.png',
-                name: 'Renuka Panwar',
-                role: 'Haryanvi singer and dancer',
-            },
-            {
-                img: '/images/png/media/sapna_choudhary.png',
-                name: 'Sapna Choudhary',
-                role: 'Haryanvi dancer, singer, actress & Bigg Boss contestant',
-            },
-            {
-                img: '/images/png/media/veer_sahu.png',
-                name: 'Veer Sahu',
-                role: 'Haryanvi singer and dancer',
-            },
-        ],
-    },
-    {
-        image: [
-            {
-                img: '/images/png/media/ajay_hooda.png',
-                name: 'Ajay Hooda',
-                role: 'Haryanvi singer, ex-Army personnel & stage performer',
-            },
-            {
-                img: '/images/png/media/amti_saini.png',
-                name: 'Amti Saini',
-                role: 'Haryanvi singer and dancer',
-            },
-            {
-                img: '/images/png/media/binder_anoda.png',
-                name: 'Binder Anoda',
-                role: 'Haryanvi singer and dancer',
-            },
-            {
-                img: '/images/png/media/dhanda_nyoliwala.png',
-                name: 'Dhanda Nyoliwala',
-                role: 'Haryanvi singer and dancer',
-            },
-            {
-                img: '/images/png/media/kaka.png',
-                name: 'Kaka',
-                role: 'Haryanvi singer and dancer',
-            },
-            {
-                img: '/images/png/media/kd.png',
-                name: 'KD',
-                role: 'Haryanvi singer and dancer',
-            },
-            {
-                img: '/images/png/media/khesari_lal_yadav.png',
-                name: 'Khesari Lal Yadav',
-                role: 'Haryanvi/Bhojpuri singer and actor',
-            },
-            {
-                img: '/images/png/media/mankirt_aulakh.png',
-                name: 'Mankirt Aulakh',
-                role: 'Punjabi singer and performer',
-            },
-            {
-                img: '/images/png/media/masoom_sharma.png',
-                name: 'Masoom Sharma',
-                role: 'Haryanvi singer and dancer',
-            },
-            {
-                img: '/images/png/media/pardeep_boora.png',
-                name: 'Pardeep Boora',
-                role: 'Haryanvi singer and dancer',
-            },
-            {
-                img: '/images/png/media/pawan_singh.png',
-                name: 'Pawan Singh',
-                role: 'Bhojpuri singer and actor',
-            },
-            {
-                img: '/images/png/media/pranjal_dahiya.png',
-                name: 'Pranjal Dahiya',
-                role: 'Haryanvi singer and dancer',
-            },
-            {
-                img: '/images/png/media/renuka_panwar.png',
-                name: 'Renuka Panwar',
-                role: 'Haryanvi singer and dancer',
-            },
-            {
-                img: '/images/png/media/sapna_choudhary.png',
-                name: 'Sapna Choudhary',
-                role: 'Haryanvi dancer, singer, actress & Bigg Boss contestant',
-            },
-            {
-                img: '/images/png/media/veer_sahu.png',
-                name: 'Veer Sahu',
                 role: 'Haryanvi singer and dancer',
             },
         ],
@@ -1002,7 +1010,7 @@ export const ARTIST_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/artists/vijay_verma.png',
                 name: 'vijay verma',
-                role: 'Bollywood Actor',
+                role: 'Harynavi Singer & Actor',
             },
             {
                 img: '/images/png/artists/yashpal_sharma.png',
@@ -1078,7 +1086,7 @@ export const ARTIST_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/artists/vijay_verma.png',
                 name: 'vijay verma',
-                role: 'Bollywood Actor',
+                role: 'Harynavi Singer & Actor',
             },
             {
                 img: '/images/png/artists/yashpal_sharma.png',
@@ -1151,7 +1159,7 @@ export const ARTIST_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/artists/vijay_verma.png',
                 name: 'vijay verma',
-                role: 'Bollywood Actor',
+                role: 'Harynavi Singer & Actor',
             },
             {
                 img: '/images/png/artists/yashpal_sharma.png',
@@ -1227,7 +1235,7 @@ export const ARTIST_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/artists/vijay_verma.png',
                 name: 'vijay verma',
-                role: 'Bollywood Actor',
+                role: 'Harynavi Singer & Actor',
             },
             {
                 img: '/images/png/artists/yashpal_sharma.png',
@@ -1298,7 +1306,7 @@ export const ARTIST_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/artists/vijay_verma.png',
                 name: 'vijay verma',
-                role: 'Bollywood Actor',
+                role: 'Harynavi Singer & Actor',
             },
             {
                 img: '/images/png/artists/yashpal_sharma.png',
@@ -1370,7 +1378,7 @@ export const ARTIST_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/artists/vijay_verma.png',
                 name: 'vijay verma',
-                role: 'Bollywood Actor',
+                role: 'Harynavi Singer & Actor',
             },
             {
                 img: '/images/png/artists/yashpal_sharma.png',

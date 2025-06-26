@@ -44,7 +44,7 @@ const LatestNews = () => {
     if (!isClient) return null;
 
     return (
-        <div className='bg-[#FFE0E1] py-14 md:py-16 lg:py-20 xl:pb-[94px] mt-6'>
+        <div className='bg-[#FFE0E1] py-14 md:py-16 lg:py-20 xl:pb-[94px] mt-4'>
             <div className="max-w-[1310px] mx-auto px-4">
                 <div className="flex flex-col gap-14 justify-between items-center lg:flex-row">
                     {/* Image */}

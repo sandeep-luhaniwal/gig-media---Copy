@@ -23,11 +23,11 @@ const NavBar = () => {
 
   return (
 
-    <div className="max-w-[1410px] mx-auto px-4 flex justify-between items-center pt-6">
+    <div className="max-w-[1410px] mx-auto px-4 flex justify-between items-center pt-4">
       <Link href={"/"}>
         <Image
-          className="w-10 md:w-12"
-          src={"/images/svg/page-logo.svg"}
+          className="w-12 md:w-16 lg:w-20 relative z-[1000]"
+          src={"/images/svg/main-logo.svg"}
           height={72}
           width={72}
           alt="page-lgoo"
