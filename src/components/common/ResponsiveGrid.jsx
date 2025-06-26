@@ -27,6 +27,7 @@ const ResponsiveGrid = ({ title, mapdataAll }) => {
                 effect="cube"
                 loop={true}
                 speed={1500}
+                pagination={false}
                 grabCursor={true}
                 onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
                 autoplay={{
@@ -40,11 +41,11 @@ const ResponsiveGrid = ({ title, mapdataAll }) => {
                   const total = person.image.length;
                   const getRealIndex = (offset) => (activeIndex + offset + total) % total;
 
-                  let scaleClass = 'scale-75';
+                  let scaleClass = 'scale-100';
                   if (i === getRealIndex(0)) {
                     scaleClass = 'scale-100';
                   } else if (i === getRealIndex(1) || i === getRealIndex(-1)) {
-                    scaleClass = 'scale-75';
+                    scaleClass = 'scale-100';
                   }
 
                   return (
@@ -54,11 +55,11 @@ const ResponsiveGrid = ({ title, mapdataAll }) => {
                           src={obj.img}
                           alt={`${person.name || 'Person'} - ${i + 1}`}
                           fill
-                          className="object-cover w-full h-full object-top rounded-xl"
+                          className={`${obj.imgClass ? "object-center" : "object-top"} object-cover w-full h-full rounded-xl`}
                         />
                         <span className="grdiant_color absolute top-0 w-full h-full scale-0 duration-300 z-10 group-hover:scale-100"></span>
                         <div className="absolute z-30 scale-0 group-hover:scale-100 duration-300 bottom-0 w-full p-3 text-white">
-                          <p className="text-lg md:text-xl ff_n lg:text-2xl font-extrabold leading-[140%]">{obj.name}</p>
+                          <p className="text-lg md:text-xl ff_n capitalize lg:text-2xl font-extrabold leading-[140%]">{obj.name}</p>
                           <p className="text-base text-white leading-[190%] ff_i">{obj.role}</p>
                         </div>
                       </div>
