@@ -189,7 +189,6 @@ export const ARTIST_CONNECT_DATA = [
     },
 ]
 
-
 export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
     {
         className: 'row-span-2',
@@ -197,38 +196,38 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/media/ajay_hooda.png',
                 name: 'Ajay Hooda',
-                role: 'Haryanvi singer, ex-Army personnel & stage performer',
+                role: 'Haryanvi singer & stage performer',
             },
             {
                 img: '/images/png/media/amti_saini.png',
-                name: 'Amti Saini',
-                role: 'Haryanvi singer and dancer',
+                name: 'Amti Saini Rohtakiya',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/binder_anoda.png',
-                name: 'Binder Anoda',
-                role: 'Haryanvi singer and dancer',
+                name: 'Binder Danoda',
+                role: 'Haryanvi singer and Lyricist',
             },
             {
                 img: '/images/png/media/dhanda_nyoliwala.png',
                 name: 'Dhanda Nyoliwala',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
                 imgmediClass: "object-left",
             },
             {
                 img: '/images/png/media/kaka.png',
                 name: 'Kaka',
-                role: 'Haryanvi singer and dancer',
+                role: 'Punjabi Singer',
             },
             {
                 img: '/images/png/media/kd.png',
                 name: 'KD',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/khesari_lal_yadav.png',
                 name: 'Khesari Lal Yadav',
-                role: 'Haryanvi/Bhojpuri singer and actor',
+                role: 'Bhojpuri singer and actor',
             },
             {
                 img: '/images/png/media/mankirt_aulakh.png',
@@ -238,12 +237,12 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/media/masoom_sharma.png',
                 name: 'Masoom Sharma',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/pardeep_boora.png',
                 name: 'Pardeep Boora',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/pawan_singh.png',
@@ -253,12 +252,12 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/media/pranjal_dahiya.png',
                 name: 'Pranjal Dahiya',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi model and dancer',
             },
             {
                 img: '/images/png/media/renuka_panwar.png',
                 name: 'Renuka Panwar',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/sapna_choudhary.png',
@@ -268,7 +267,7 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/media/veer_sahu.png',
                 name: 'Veer Sahu',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
 
         ],
@@ -280,22 +279,22 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/media/dhanda_nyoliwala.png',
                 name: 'Dhanda Nyoliwala',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/kaka.png',
                 name: 'Kaka',
-                role: 'Haryanvi singer and dancer',
+                role: 'Punjabi Singer',
             },
             {
                 img: '/images/png/media/kd.png',
                 name: 'KD',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/khesari_lal_yadav.png',
                 name: 'Khesari Lal Yadav',
-                role: 'Haryanvi/Bhojpuri singer and actor',
+                role: 'Bhojpuri singer and actor',
             },
             {
                 img: '/images/png/media/mankirt_aulakh.png',
@@ -305,12 +304,12 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/media/masoom_sharma.png',
                 name: 'Masoom Sharma',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/pardeep_boora.png',
                 name: 'Pardeep Boora',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/pawan_singh.png',
@@ -320,12 +319,12 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/media/pranjal_dahiya.png',
                 name: 'Pranjal Dahiya',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi model and dancer',
             },
             {
                 img: '/images/png/media/renuka_panwar.png',
                 name: 'Renuka Panwar',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/sapna_choudhary.png',
@@ -335,22 +334,22 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/media/veer_sahu.png',
                 name: 'Veer Sahu',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/ajay_hooda.png',
                 name: 'Ajay Hooda',
-                role: 'Haryanvi singer, ex-Army personnel & stage performer',
+                role: 'Haryanvi singer & stage performer',
             },
             {
                 img: '/images/png/media/amti_saini.png',
-                name: 'Amti Saini',
-                role: 'Haryanvi singer and dancer',
+                name: 'Amti Saini Rohtakiya',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/binder_anoda.png',
-                name: 'Binder Anoda',
-                role: 'Haryanvi singer and dancer',
+                name: 'Binder Danoda',
+                role: 'Haryanvi singer and Lyricist',
             },
         ],
     },
@@ -361,7 +360,7 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/media/khesari_lal_yadav.png',
                 name: 'Khesari Lal Yadav',
-                role: 'Haryanvi/Bhojpuri singer and actor',
+                role: 'Bhojpuri singer and actor',
             },
             {
                 img: '/images/png/media/mankirt_aulakh.png',
@@ -371,12 +370,12 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/media/masoom_sharma.png',
                 name: 'Masoom Sharma',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/pardeep_boora.png',
                 name: 'Pardeep Boora',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/pawan_singh.png',
@@ -386,12 +385,12 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/media/pranjal_dahiya.png',
                 name: 'Pranjal Dahiya',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi model and dancer',
             },
             {
                 img: '/images/png/media/renuka_panwar.png',
                 name: 'Renuka Panwar',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/sapna_choudhary.png',
@@ -401,37 +400,37 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/media/veer_sahu.png',
                 name: 'Veer Sahu',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/ajay_hooda.png',
                 name: 'Ajay Hooda',
-                role: 'Haryanvi singer, ex-Army personnel & stage performer',
+                role: 'Haryanvi singer & stage performer',
             },
             {
                 img: '/images/png/media/amti_saini.png',
-                name: 'Amti Saini',
-                role: 'Haryanvi singer and dancer',
+                name: 'Amti Saini Rohtakiya',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/binder_anoda.png',
-                name: 'Binder Anoda',
-                role: 'Haryanvi singer and dancer',
+                name: 'Binder Danoda',
+                role: 'Haryanvi singer and Lyricist',
             },
             {
                 img: '/images/png/media/dhanda_nyoliwala.png',
                 name: 'Dhanda Nyoliwala',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/kaka.png',
                 name: 'Kaka',
-                role: 'Haryanvi singer and dancer',
+                role: 'Punjabi Singer',
             },
             {
                 img: '/images/png/media/kd.png',
                 name: 'KD',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
         ],
     },
@@ -441,7 +440,7 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/media/pardeep_boora.png',
                 name: 'Pardeep Boora',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/pawan_singh.png',
@@ -451,12 +450,12 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/media/pranjal_dahiya.png',
                 name: 'Pranjal Dahiya',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi model and dancer',
             },
             {
                 img: '/images/png/media/renuka_panwar.png',
                 name: 'Renuka Panwar',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/sapna_choudhary.png',
@@ -466,42 +465,42 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/media/veer_sahu.png',
                 name: 'Veer Sahu',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/ajay_hooda.png',
                 name: 'Ajay Hooda',
-                role: 'Haryanvi singer, ex-Army personnel & stage performer',
+                role: 'Haryanvi singer & stage performer',
             },
             {
                 img: '/images/png/media/amti_saini.png',
-                name: 'Amti Saini',
-                role: 'Haryanvi singer and dancer',
+                name: 'Amti Saini Rohtakiya',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/binder_anoda.png',
-                name: 'Binder Anoda',
-                role: 'Haryanvi singer and dancer',
+                name: 'Binder Danoda',
+                role: 'Haryanvi singer and Lyricist',
             },
             {
                 img: '/images/png/media/dhanda_nyoliwala.png',
                 name: 'Dhanda Nyoliwala',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/kaka.png',
                 name: 'Kaka',
-                role: 'Haryanvi singer and dancer',
+                role: 'Punjabi Singer',
             },
             {
                 img: '/images/png/media/kd.png',
                 name: 'KD',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/khesari_lal_yadav.png',
                 name: 'Khesari Lal Yadav',
-                role: 'Haryanvi/Bhojpuri singer and actor',
+                role: 'Bhojpuri singer and actor',
             },
             {
                 img: '/images/png/media/mankirt_aulakh.png',
@@ -511,7 +510,7 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/media/masoom_sharma.png',
                 name: 'Masoom Sharma',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
         ],
     },
@@ -521,7 +520,7 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/media/renuka_panwar.png',
                 name: 'Renuka Panwar',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/sapna_choudhary.png',
@@ -531,42 +530,42 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/media/veer_sahu.png',
                 name: 'Veer Sahu',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/ajay_hooda.png',
                 name: 'Ajay Hooda',
-                role: 'Haryanvi singer, ex-Army personnel & stage performer',
+                role: 'Haryanvi singer & stage performer',
             },
             {
                 img: '/images/png/media/amti_saini.png',
-                name: 'Amti Saini',
-                role: 'Haryanvi singer and dancer',
+                name: 'Amti Saini Rohtakiya',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/binder_anoda.png',
-                name: 'Binder Anoda',
-                role: 'Haryanvi singer and dancer',
+                name: 'Binder Danoda',
+                role: 'Haryanvi singer and Lyricist',
             },
             {
                 img: '/images/png/media/dhanda_nyoliwala.png',
                 name: 'Dhanda Nyoliwala',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/kaka.png',
                 name: 'Kaka',
-                role: 'Haryanvi singer and dancer',
+                role: 'Punjabi Singer',
             },
             {
                 img: '/images/png/media/kd.png',
                 name: 'KD',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/khesari_lal_yadav.png',
                 name: 'Khesari Lal Yadav',
-                role: 'Haryanvi/Bhojpuri singer and actor',
+                role: 'Bhojpuri singer and actor',
             },
             {
                 img: '/images/png/media/mankirt_aulakh.png',
@@ -576,12 +575,12 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/media/masoom_sharma.png',
                 name: 'Masoom Sharma',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/pardeep_boora.png',
                 name: 'Pardeep Boora',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/pawan_singh.png',
@@ -591,7 +590,7 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/media/pranjal_dahiya.png',
                 name: 'Pranjal Dahiya',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi model and dancer',
             },
         ],
         className: 'lg:row-span-2 lg:col-span-2',
@@ -601,37 +600,37 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/media/ajay_hooda.png',
                 name: 'Ajay Hooda',
-                role: 'Haryanvi singer, ex-Army personnel & stage performer',
+                role: 'Haryanvi singer & stage performer',
             },
             {
                 img: '/images/png/media/amti_saini.png',
-                name: 'Amti Saini',
-                role: 'Haryanvi singer and dancer',
+                name: 'Amti Saini Rohtakiya',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/binder_anoda.png',
-                name: 'Binder Anoda',
-                role: 'Haryanvi singer and dancer',
+                name: 'Binder Danoda',
+                role: 'Haryanvi singer and Lyricist',
             },
             {
                 img: '/images/png/media/dhanda_nyoliwala.png',
                 name: 'Dhanda Nyoliwala',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/kaka.png',
                 name: 'Kaka',
-                role: 'Haryanvi singer and dancer',
+                role: 'Punjabi Singer',
             },
             {
                 img: '/images/png/media/kd.png',
                 name: 'KD',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/khesari_lal_yadav.png',
                 name: 'Khesari Lal Yadav',
-                role: 'Haryanvi/Bhojpuri singer and actor',
+                role: 'Bhojpuri singer and actor',
             },
             {
                 img: '/images/png/media/mankirt_aulakh.png',
@@ -641,12 +640,12 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/media/masoom_sharma.png',
                 name: 'Masoom Sharma',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/pardeep_boora.png',
                 name: 'Pardeep Boora',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/pawan_singh.png',
@@ -656,12 +655,12 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/media/pranjal_dahiya.png',
                 name: 'Pranjal Dahiya',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi model and dancer',
             },
             {
                 img: '/images/png/media/renuka_panwar.png',
                 name: 'Renuka Panwar',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
             {
                 img: '/images/png/media/sapna_choudhary.png',
@@ -671,7 +670,7 @@ export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/media/veer_sahu.png',
                 name: 'Veer Sahu',
-                role: 'Haryanvi singer and dancer',
+                role: 'Haryanvi singer',
             },
         ],
     },
@@ -692,24 +691,14 @@ export const CREATIVE_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/webp/creative/content_agency.webp',
             },
-            // {
-            //     img: '/images/webp/creative/digital_marketing.webp',
-            // },
-            // {
-            //     img: '/images/webp/creative/event_agency.webp',
-            // },
-            // {
-            //     img: '/images/webp/creative/influencer_marketing.webp',
-            // },
+
             {
                 img: '/images/webp/creative/line_agency.webp',
             },
             {
                 img: '/images/webp/creative/post_studio.webp',
             },
-            // {
-            //     img: '/images/webp/creative/pr_agency.webp',
-            // },
+
             {
                 img: '/images/webp/creative/production_house.webp',
             },
@@ -946,12 +935,12 @@ export const ARTIST_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/artists/amit_dull.png',
                 name: 'amit dull',
-                role: 'Haryanvi Singer, Music Producer',
+                role: 'Haryanvi Singer',
             },
             {
                 img: '/images/png/artists/ashok_pathak.png',
                 name: 'ashok pathak',
-                role: 'Haryanvi Actor, Director',
+                role: 'Bollywood Actor',
             },
             {
                 img: '/images/png/artists/babbal_rai.png',
@@ -966,37 +955,37 @@ export const ARTIST_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/artists/hariom_kaushik.png',
                 name: 'hariom kaushik',
-                role: 'Haryanvi Actor, Dancer',
+                role: 'Haryanvi Actor, Director',
             },
             {
                 img: '/images/png/artists/harsh_gehlot.png',
                 name: 'harsh gehlot',
-                role: 'Haryanvi Singer',
+                role: 'Haryanvi Actor & Model',
             },
             {
                 img: '/images/png/artists/mannu_pahari.png',
                 name: 'mannu pahari',
-                role: 'Haryanvi Folk Singer',
+                role: 'Influencer and Dancer',
             },
             {
                 img: '/images/png/artists/nidhi_sharma.png',
                 name: 'nidhi sharma',
-                role: 'Haryanvi Actress, Dancer',
+                role: 'Influencer and Dancer',
             },
             {
                 img: '/images/png/artists/ryan_lohan.png',
                 name: 'ryan lohan',
-                role: 'Bollywood Actor, Model',
+                role: 'Director',
             },
             {
                 img: '/images/png/artists/sahil_sandhu.png',
                 name: 'sahil sandhu',
-                role: 'Punjabi Singer, Music Director',
+                role: 'Director',
             },
             {
                 img: '/images/png/artists/sehbaaz_khan.png',
                 name: 'sehbaaz khan',
-                role: 'Haryanvi Actor, Singer',
+                role: 'Bollywood Actor',
             },
             {
                 img: '/images/png/artists/sonika_singh.png',
@@ -1027,7 +1016,7 @@ export const ARTIST_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/artists/ashok_pathak.png',
                 name: 'ashok pathak',
-                role: 'Haryanvi Actor, Director',
+                role: 'Bollywood Actor',
             },
             {
                 img: '/images/png/artists/babbal_rai.png',
@@ -1042,37 +1031,37 @@ export const ARTIST_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/artists/hariom_kaushik.png',
                 name: 'hariom kaushik',
-                role: 'Haryanvi Actor, Dancer',
+                role: 'Haryanvi Actor, Director',
             },
             {
                 img: '/images/png/artists/harsh_gehlot.png',
                 name: 'harsh gehlot',
-                role: 'Haryanvi Singer',
+                role: 'Haryanvi Actor & Model',
             },
             {
                 img: '/images/png/artists/mannu_pahari.png',
                 name: 'mannu pahari',
-                role: 'Haryanvi Folk Singer',
+                role: 'Influencer and Dancer',
             },
             {
                 img: '/images/png/artists/nidhi_sharma.png',
                 name: 'nidhi sharma',
-                role: 'Haryanvi Actress, Dancer',
+                role: 'Influencer and Dancer',
             },
             {
                 img: '/images/png/artists/ryan_lohan.png',
                 name: 'ryan lohan',
-                role: 'Bollywood Actor, Model',
+                role: 'Director',
             },
             {
                 img: '/images/png/artists/sahil_sandhu.png',
                 name: 'sahil sandhu',
-                role: 'Punjabi Singer, Music Director',
+                role: 'Director',
             },
             {
                 img: '/images/png/artists/sehbaaz_khan.png',
                 name: 'sehbaaz khan',
-                role: 'Haryanvi Actor, Singer',
+                role: 'Bollywood Actor',
             },
             {
                 img: '/images/png/artists/sonika_singh.png',
@@ -1103,7 +1092,7 @@ export const ARTIST_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/artists/amit_dull.png',
                 name: 'amit dull',
-                role: 'Haryanvi Singer, Music Producer',
+                role: 'Haryanvi Singer',
             },
 
         ],
@@ -1115,37 +1104,37 @@ export const ARTIST_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/artists/hariom_kaushik.png',
                 name: 'hariom kaushik',
-                role: 'Haryanvi Actor, Dancer',
+                role: 'Haryanvi Actor, Director',
             },
             {
                 img: '/images/png/artists/harsh_gehlot.png',
                 name: 'harsh gehlot',
-                role: 'Haryanvi Singer',
+                role: 'Haryanvi Actor & Model',
             },
             {
                 img: '/images/png/artists/mannu_pahari.png',
                 name: 'mannu pahari',
-                role: 'Haryanvi Folk Singer',
+                role: 'Influencer and Dancer',
             },
             {
                 img: '/images/png/artists/nidhi_sharma.png',
                 name: 'nidhi sharma',
-                role: 'Haryanvi Actress, Dancer',
+                role: 'Influencer and Dancer',
             },
             {
                 img: '/images/png/artists/ryan_lohan.png',
                 name: 'ryan lohan',
-                role: 'Bollywood Actor, Model',
+                role: 'Director',
             },
             {
                 img: '/images/png/artists/sahil_sandhu.png',
                 name: 'sahil sandhu',
-                role: 'Punjabi Singer, Music Director',
+                role: 'Director',
             },
             {
                 img: '/images/png/artists/sehbaaz_khan.png',
                 name: 'sehbaaz khan',
-                role: 'Haryanvi Actor, Singer',
+                role: 'Bollywood Actor',
             },
             {
                 img: '/images/png/artists/sonika_singh.png',
@@ -1176,12 +1165,12 @@ export const ARTIST_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/artists/amit_dull.png',
                 name: 'amit dull',
-                role: 'Haryanvi Singer, Music Producer',
+                role: 'Haryanvi Singer',
             },
             {
                 img: '/images/png/artists/ashok_pathak.png',
                 name: 'ashok pathak',
-                role: 'Haryanvi Actor, Director',
+                role: 'Bollywood Actor',
             },
             {
                 img: '/images/png/artists/babbal_rai.png',
@@ -1201,27 +1190,27 @@ export const ARTIST_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/artists/mannu_pahari.png',
                 name: 'mannu pahari',
-                role: 'Haryanvi Folk Singer',
+                role: 'Influencer and Dancer',
             },
             {
                 img: '/images/png/artists/nidhi_sharma.png',
                 name: 'nidhi sharma',
-                role: 'Haryanvi Actress, Dancer',
+                role: 'Influencer and Dancer',
             },
             {
                 img: '/images/png/artists/ryan_lohan.png',
                 name: 'ryan lohan',
-                role: 'Bollywood Actor, Model',
+                role: 'Director',
             },
             {
                 img: '/images/png/artists/sahil_sandhu.png',
                 name: 'sahil sandhu',
-                role: 'Punjabi Singer, Music Director',
+                role: 'Director',
             },
             {
                 img: '/images/png/artists/sehbaaz_khan.png',
                 name: 'sehbaaz khan',
-                role: 'Haryanvi Actor, Singer',
+                role: 'Bollywood Actor',
             },
             {
                 img: '/images/png/artists/sonika_singh.png',
@@ -1252,12 +1241,12 @@ export const ARTIST_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/artists/amit_dull.png',
                 name: 'amit dull',
-                role: 'Haryanvi Singer, Music Producer',
+                role: 'Haryanvi Singer',
             },
             {
                 img: '/images/png/artists/ashok_pathak.png',
                 name: 'ashok pathak',
-                role: 'Haryanvi Actor, Director',
+                role: 'Bollywood Actor',
             },
             {
                 img: '/images/png/artists/babbal_rai.png',
@@ -1272,12 +1261,12 @@ export const ARTIST_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/artists/hariom_kaushik.png',
                 name: 'hariom kaushik',
-                role: 'Haryanvi Actor, Dancer',
+                role: 'Haryanvi Actor, Director',
             },
             {
                 img: '/images/png/artists/harsh_gehlot.png',
                 name: 'harsh gehlot',
-                role: 'Haryanvi Singer',
+                role: 'Haryanvi Actor & Model',
             },
         ],
     },
@@ -1287,12 +1276,12 @@ export const ARTIST_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/artists/sahil_sandhu.png',
                 name: 'sahil sandhu',
-                role: 'Punjabi Singer, Music Director',
+                role: 'Director',
             },
             {
                 img: '/images/png/artists/sehbaaz_khan.png',
                 name: 'sehbaaz khan',
-                role: 'Haryanvi Actor, Singer',
+                role: 'Bollywood Actor',
             },
             {
                 img: '/images/png/artists/sonika_singh.png',
@@ -1323,12 +1312,12 @@ export const ARTIST_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/artists/amit_dull.png',
                 name: 'amit dull',
-                role: 'Haryanvi Singer, Music Producer',
+                role: 'Haryanvi Singer',
             },
             {
                 img: '/images/png/artists/ashok_pathak.png',
                 name: 'ashok pathak',
-                role: 'Haryanvi Actor, Director',
+                role: 'Bollywood Actor',
             },
             {
                 img: '/images/png/artists/babbal_rai.png',
@@ -1343,27 +1332,27 @@ export const ARTIST_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/artists/hariom_kaushik.png',
                 name: 'hariom kaushik',
-                role: 'Haryanvi Actor, Dancer',
+                role: 'Haryanvi Actor, Director',
             },
             {
                 img: '/images/png/artists/harsh_gehlot.png',
                 name: 'harsh gehlot',
-                role: 'Haryanvi Singer',
+                role: 'Haryanvi Actor & Model',
             },
             {
                 img: '/images/png/artists/mannu_pahari.png',
                 name: 'mannu pahari',
-                role: 'Haryanvi Folk Singer',
+                role: 'Influencer and Dancer',
             },
             {
                 img: '/images/png/artists/nidhi_sharma.png',
                 name: 'nidhi sharma',
-                role: 'Haryanvi Actress, Dancer',
+                role: 'Influencer and Dancer',
             },
             {
                 img: '/images/png/artists/ryan_lohan.png',
                 name: 'ryan lohan',
-                role: 'Bollywood Actor, Model',
+                role: 'Director',
             },
         ],
         className: 'lg:row-span-2 lg:col-span-2',
@@ -1395,12 +1384,12 @@ export const ARTIST_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/artists/amit_dull.png',
                 name: 'amit dull',
-                role: 'Haryanvi Singer, Music Producer',
+                role: 'Haryanvi Singer',
             },
             {
                 img: '/images/png/artists/ashok_pathak.png',
                 name: 'ashok pathak',
-                role: 'Haryanvi Actor, Director',
+                role: 'Bollywood Actor',
             },
             {
                 img: '/images/png/artists/babbal_rai.png',
@@ -1415,37 +1404,37 @@ export const ARTIST_CELEBRITIES_DATA_LIST = [
             {
                 img: '/images/png/artists/hariom_kaushik.png',
                 name: 'hariom kaushik',
-                role: 'Haryanvi Actor, Dancer',
+                role: 'Haryanvi Actor, Director',
             },
             {
                 img: '/images/png/artists/harsh_gehlot.png',
                 name: 'harsh gehlot',
-                role: 'Haryanvi Singer',
+                role: 'Haryanvi Actor & Model',
             },
             {
                 img: '/images/png/artists/mannu_pahari.png',
                 name: 'mannu pahari',
-                role: 'Haryanvi Folk Singer',
+                role: 'Influencer and Dancer',
             },
             {
                 img: '/images/png/artists/nidhi_sharma.png',
                 name: 'nidhi sharma',
-                role: 'Haryanvi Actress, Dancer',
+                role: 'Influencer and Dancer',
             },
             {
                 img: '/images/png/artists/ryan_lohan.png',
                 name: 'ryan lohan',
-                role: 'Bollywood Actor, Model',
+                role: 'Director',
             },
             {
                 img: '/images/png/artists/sahil_sandhu.png',
                 name: 'sahil sandhu',
-                role: 'Punjabi Singer, Music Director',
+                role: 'Director',
             },
             {
                 img: '/images/png/artists/sehbaaz_khan.png',
                 name: 'sehbaaz khan',
-                role: 'Haryanvi Actor, Singer',
+                role: 'Bollywood Actor',
             },
             {
                 img: '/images/png/artists/sonika_singh.png',

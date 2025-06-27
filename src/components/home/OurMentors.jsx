@@ -28,12 +28,12 @@ const OurMentors = () => {
                     <div className='flex flex-col justify-center items-center'>
                         <Image width={300} height={300} alt='vinod' src={"/images/webp/home/vinod-set.webp"} />
                         <p className='font-bold text-2xl md:text-3xl text-center pt-4 pb-1'>Vinod Bhanushali</p>
-                        <p className='text-center bg-[#FF0004] text-sm md:text-base lg:text-lg text-white font-medium py-1 px-5 rounded-[6px]'>Founder Hitz Music & Bhanushali Studio</p>
+                        <p className='text-center max-w-[300px] md:max-w-[327px] lg:max-w-[380px] w-full mx-auto bg-[#FF0004] text-sm md:text-base lg:text-lg text-white font-medium py-1 px-5 rounded-[6px]'>Founder Hitz Music & Bhanushali Studio</p>
                     </div>
                     <div className='flex flex-col justify-center items-center'>
                         <Image width={300} height={300} alt='vinod' src={"/images/webp/home/ashok.webp"} />
                         <p className='font-bold text-2xl md:text-3xl text-center pt-4 pb-1'>Ashok Shrivastav</p>
-                        <p className='text-center bg-[#FF0004] text-sm md:text-base lg:text-lg text-white font-medium py-1 px-5 rounded-[6px]'>Media Industry Veteran</p>
+                        <p className='text-center max-w-[300px] md:max-w-[327px] lg:max-w-[380px] w-full mx-auto bg-[#FF0004] text-sm md:text-base lg:text-lg text-white font-medium py-1 px-5 rounded-[6px]'>Media Industry Veteran</p>
                     </div>
                 </div>
             </div>
