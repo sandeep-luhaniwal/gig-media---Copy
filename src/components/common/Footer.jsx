@@ -59,7 +59,7 @@ const Footer = () => {
               <h4 className="text-lg md:text-xl lg:text-[23px] font-semibold">
                 Get in Touch!
               </h4>
-              <Link href="mailto:Enquiries@gigmediaapp.com" className="flex items-center hover:text-red-600 duration-300 max-w-[234px] text-base md:text-lg ff_n font-normal mb-0 gap-6 justify-between mt-2">
+              <Link href="mailto:Enquiries@gigmediaapp.com" className="flex items-center hover:text-red-600 duration-300 max-w-[234px] text-[15px] md:text-base ff_n font-normal mb-0 gap-6 justify-between mt-2">
                 Enquiries@gigmediaapp.com
               </Link>
             </div>
