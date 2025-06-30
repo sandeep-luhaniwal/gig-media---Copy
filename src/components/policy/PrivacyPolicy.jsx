@@ -188,7 +188,7 @@ const PrivacyPolicy = () => {
 
   return (
     <div className="max-w-[1300px] mx-auto px-4 py-8 text-gray-800">
-      <h1 className="text-3xl md:text-4xl font-bold mb-6 text-[#ff0004] text-center">Privacy Policy to Gigmedia</h1>
+      <h1 className="text-3xl md:text-4xl font-bold mb-6 text-[#ff0004] text-center">Privacy Policy</h1>
 
       <div className="space-y-8">
         {termsData.map((section, index) => (
