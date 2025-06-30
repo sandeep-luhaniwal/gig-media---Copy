@@ -54,7 +54,7 @@ const AboutUs = () => {
                                         alt={`About Slide ${idx + 1}`}
                                         width={230}
                                         height={277}
-                                        className="rounded-xl w-full h-full object-cover"
+                                        className="rounded-xl w-full h-full object-bottom object-cover"
                                     />
                                 </SwiperSlide>
                             ))}
